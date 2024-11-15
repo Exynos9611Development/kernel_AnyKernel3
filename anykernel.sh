@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Something New...
+kernel.string=Something New Kernel
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -39,7 +39,7 @@ PATCH_VBMETA_FLAG=auto;
 
 # boot install
 split_boot;
-ui_print "- Installing Kernel";
+ui_print "- Installing Chaos";
 flash_boot;
 ## end boot install
 
